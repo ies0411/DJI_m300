@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+   <node pkg="vm_basic_flight" type="vm_basic_command_node" name="vm_basic_command_node" output="screen">
+   </node>
+   <node pkg="vm_basic_flight" type="vm_command_keyboard_node" name="vm_command_keyboard_node" output="screen"> 
+   </node>
+   <node pkg="vm_basic_flight" type="vm_utm_odometry_node" name="vm_utm_odometry_node" >
+   </node>
+   <node pkg="vm_basic_flight" type="vm_camera_process_node" name="vm_camera_process_node" output="screen">
+   </node>
+
+</launch>
